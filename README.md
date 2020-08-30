@@ -2,6 +2,9 @@
 
 This is an unofficial implementation of ["Denoising Diffusion Probabilistic Models"](https://arxiv.org/abs/2006.11239) in [PyTorch(Lightning)](https://github.com/PyTorchLightning/pytorch-lightning).
 
+![](/misc/DDP.gif)
+![](/misc/cifar10.png)
+
 ## Requirements
 
 To install requirements:
