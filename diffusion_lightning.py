@@ -219,7 +219,7 @@ if __name__ == "__main__":
         conf = json.load(f)
 
     conf = obj(conf)
-    denoising_diffusion_model = DDP(conf).cuda()
+    denoising_diffusion_model = DDP(conf)
 
     if args.train:
         checkpoint_callback = ModelCheckpoint(filepath=os.path.join(args.ckpt_dir, 'ddp_{epoch:02d}-{val_loss:.2f}'),
@@ -243,7 +243,8 @@ if __name__ == "__main__":
         trainer.fit(denoising_diffusion_model)
 
     else:
-
+        
+        denoising_diffusion_model.cuda()
         state_dict = torch.load(args.model_dir)
         denoising_diffusion_model.load_state_dict(state_dict['state_dict'])
         denoising_diffusion_model.eval()
