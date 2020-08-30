@@ -179,7 +179,7 @@ class DDP(pl.LightningModule):
         grid = make_grid(sample['samples'], nrow=4)
         self.logger.experiment.add_image(f'generated_images', grid, self.current_epoch)
 
-        grid = make_grid(sample['progressive_samples'].reshape(-1, 3, self.conf.dataset.resolution, self.conf.dataset.resolution), nrow=4)
+        grid = make_grid(sample['progressive_samples'].reshape(-1, 3, self.conf.dataset.resolution, self.conf.dataset.resolution), nrow=20)
         self.logger.experiment.add_image(f'progressive_generated_images', grid, self.current_epoch)
         
         return {'val_loss': avg_loss, 'log': tensorboard_logs}
