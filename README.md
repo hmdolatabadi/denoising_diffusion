@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## Training Diffusion Models
 
-To train the a diffusion model, first specify model architecture and hyperparameters in `config.json`. Once specified, run this command:
+To train a diffusion model, first specify model architecture and hyperparameters in `config.json`. Once specified, run this command:
 
 ```train
 python diffusion_lightning.py --train --config config.json --ckpt_dir PATH_TO_CHECKPOINTS --ckpt_freq CHECKPOINT_FREQ --n_gpu NUM_AVAIL_GPUS
