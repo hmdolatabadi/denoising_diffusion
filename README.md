@@ -35,7 +35,7 @@ python diffusion_lightning.py --config config.json --model_dir MODEL_DIRECTORY -
 
 ## Pre-trained Models
 
-Pre-trained diffusion models on CelebA and CIFAR-10 can be found [here]().
+Pre-trained diffusion models on CelebA and CIFAR-10 can be found [here](https://drive.google.com/drive/folders/1R8xmSjLSM1vXWpvZrv3mPE52ImCjVzxK?usp=sharing).
 
 ## CIFAR-10 FID Score
 
