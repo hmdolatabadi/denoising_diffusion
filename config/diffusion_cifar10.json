@@ -1,7 +1,7 @@
 {
 "dataset": {
     "name": "cifar10",
-    "path": "/scratch/punim0955/FrEIA-master/cifar-10_data",
+    "path": "cifar10_data",
     "resolution": 32
 }
 ,
@@ -34,7 +34,7 @@
     },
     "dataloader": {
         "batch_size": 128,
-        "num_workers": 0,
+        "num_workers": 4,
         "drop_last": true
     }
 }
@@ -42,7 +42,7 @@
 "validation": {
     "dataloader": {
         "batch_size": 100,
-        "num_workers": 0,
+        "num_workers": 4,
         "drop_last": false
     }
 },
