@@ -1,3 +1,6 @@
+## A translation of https://github.com/hojonathanho/diffusion/blob/master/diffusion_tf/diffusion_utils_2.py
+## from TensorFlow with some help from https://github.com/rosinality/denoising-diffusion-pytorch
+
 import torch
 import numpy as np
 from torch import nn
