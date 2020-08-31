@@ -1,7 +1,7 @@
 {
 "dataset": {
     "name": "celeba",
-    "path": "/scratch/punim0955/FrEIA-master/celeba_data/",
+    "path": "/celeba_data/",
     "resolution": 128
 }
 ,
