@@ -1,3 +1,5 @@
+## Adapted from https://github.com/rosinality/denoising-diffusion-pytorch with some minor changes.
+
 import math
 
 import torch
