@@ -1,7 +1,7 @@
 {
 "dataset": {
     "name": "cifar10",
-    "path": "cifar10_data",
+    "path": "/cifar10_data/",
     "resolution": 32
 }
 ,
