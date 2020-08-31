@@ -4,4 +4,4 @@ pytorch-lightning==0.8.5
 numpy==1.17.3
 torchvision==0.7.0
 matplotlib==3.1.1
-Pillow==6.2.1
+Pillow>=7.1.0
