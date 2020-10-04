@@ -1,6 +1,6 @@
 # Denosing Diffusion Generative Models
 
-This is an unofficial implementation of ["Denoising Diffusion Probabilistic Models"](https://arxiv.org/abs/2006.11239) in [PyTorch(Lightning)](https://github.com/PyTorchLightning/pytorch-lightning).
+This is an unofficial implementation of ["Denoising Diffusion Probabilistic Models"](https://arxiv.org/abs/2006.11239) in [PyTorch(Lightning)](https://github.com/PyTorchLightning/pytorch-lightning). For a brief introduction to diffusion models, see my [blog post](https://hmdolatabadi.github.io/posts/2020/09/ddp/).
 
 <p align="center">
   <img width="522" height="132" src="/misc/DDP.gif">
